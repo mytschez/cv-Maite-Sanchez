@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-8">        
+    </div>
+    <div class="col-4">
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <nav class="navbar navbar-light bg-negro">
+                <a class="style-nombre" href="#">
+                    <img src="../../../assets/imagenes/cvbyn.ico" class="d-inline-block img-fluid" alt="">
+                    <span class="menuspan">Maite Sánchez Leandro</span>
+                </a>
+            </nav>
+            <nav *ngFor="let sbar of sidebar" class="navbar navbar-light bg-{{sbar.bgcolor}}">
+                <a id="v-pills-{{sbar.nombreBloque | lowercase}}-tab" data-toggle="pill"
+                    href="#v-pills-{{sbar.nombreBloque | lowercase}}" role="tab"
+                    attr.aria-controls="v-pills-{{sbar.nombreBloque | lowercase}}" aria-selected="true">
+                    <img src="../../../assets/imagenes/{{sbar.icono}}" class="d-inline-block img-fluid" alt="">
+                    <span class="menuspan">{{sbar.nombreBloque}}</span>
+                </a>
+            </nav>
+        </div>
+    </div>
+</div>

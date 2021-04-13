@@ -1,0 +1,64 @@
+a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 1.2rem 1rem;
+}
+
+/*estilo del nombre en la barra de menú */
+
+.style-nombre {
+    font-family: 'Dancing Script';
+    font-size: 26px;
+    cursor: default;
+}
+
+.style-nombre img {
+    border-radius: 50%;
+}
+
+/*título de cada barra de menú*/
+
+.menuspan {
+    vertical-align: middle;
+    margin: 0 0 0 8px;
+}
+
+/*colores del menú */
+
+.bg-negro {
+    background: #000;
+}
+
+.bg-morado {
+    background: #900C3F;
+}
+
+.bg-rojo {
+    background: #C70039;
+}
+
+.bg-naranja {
+    background: #FF5733;
+}
+
+.bg-amarillo {
+    background: #FFC300;
+}
+
+.bg-verde {
+    background: #A7CC65;
+}
+
+.bg-azul {
+    background: #A6DAF7;
+}
+
+.bg-lila {
+    background: #A6B1F7;
+}
+
