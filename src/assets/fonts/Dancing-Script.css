@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Dancing-Script/Dancing-Script.eot);
+  src: local('Dancing-Script'), url(../fonts/Dancing-Script/Dancing-Script.eot?#iefix) format('embedded-opentype'), 
+  url(../fonts/Dancing-Script/Dancing-Script.svg#DancingScript) format('svg'), 
+  url(../fonts/Dancing-Script/Dancing-Script.woff) format('woff'), 
+  url(../fonts/Dancing-Script/Dancing-Script.woff2) format('woff2'), 
+  url(../fonts/Dancing-Script/Dancing-Script.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Dancing-Script/Dancing-Script-normal-700.woff) format('woff'), 
+  url(../fonts/Dancing-Script/Dancing-Script-normal-700.woff2) format('woff2'), 
+  url(../fonts/Dancing-Script/Dancing-Script-normal-700.ttf) format('truetype');
+}
+
